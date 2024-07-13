@@ -5,7 +5,7 @@ const initialState = {
   cart: [
     {
       pizzaId: 23,
-      name:"Mediterranean";
+      name:"Mediterranean",
       quantity: 2,
       unitprice: 16,
       totalprice: 32,
