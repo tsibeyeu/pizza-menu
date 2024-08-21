@@ -34,7 +34,7 @@ function Cart() {
   const cart = useSelector(getCart);
   const currentUser = useSelector(getUserName);
   const dispatch = useDispatch();
-  console.log("cart cart",cart.length)
+  // console.log("cart cart",cart.length)
   if (!cart.length) return <EmptyCart />;
   return (
     <div className="px-4 py-3">
